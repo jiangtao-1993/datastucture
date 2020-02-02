@@ -22,6 +22,25 @@ public class NumTest {
         }
     }
 
+    //内部类的测试
+    public static class InnerClass{
+        private String name;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+
+    /*public void testMethod(){
+        //访问内部类
+        InnerClass innerClass = new InnerClass();
+        System.out.println(innerClass.name);
+    }*/
+
 
 
     public static void main(String[] args) {
